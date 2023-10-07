@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from main import count_increases 
+from d1c1 import count_increases 
 
 def test_count_increases_from_file():
     current_directory = os.path.dirname(os.path.abspath(__file__))
