@@ -11,9 +11,9 @@ def test_calculate_final_position_sample():
     with open(file_path, "r") as file:
         commands = [line.strip() for line in file.readlines()] 
     horizontal, depth = calculate_final_position(commands)
-    assert horizontal == 1815
-    assert depth == 908
-    assert horizontal * depth == (1815 * 908)
+    assert horizontal == 2024
+    assert depth == 717
+    assert horizontal * depth == (2024 * 717)
 
  
 
